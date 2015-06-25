@@ -53,7 +53,7 @@ def run(wf):
         all_posts.pop(0)
     
     for info in all_posts:  
-        wf.add_item(info['title'],arg=info['link'],valid = True)
+        wf.add_item(info['title'],arg=info['link'],icon='rune.png',valid = True)
     wf.send_feedback()
         
 if __name__=="__main__":
